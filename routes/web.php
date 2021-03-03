@@ -20,7 +20,8 @@ use Illuminate\Support\Facades\Route;
 // LOGIN
 Auth::routes();
 Route::get('/', 'AuthController@index')->name('login');
-Route::get('/dashboard', 'AuthController@dashboard')->name('dashboard');
+Route::post('/signin', 'AuthController@sendLoginRequest')->name('ceklogin');
+Route::get('/dashboard', 'DashboardController@index' )->name('dashboard');
 
 // EX
 Route::get('/home', 'HomeController@index')->name('home');

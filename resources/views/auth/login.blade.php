@@ -30,11 +30,12 @@
                     </div>
                     <div class="login-wrapper my-auto ">
                         <h1 class="login-title">Silahkan Masuk</h1>
-                        <form action="{{route ('dashboard')}}" method="post">
+                        <form action="{{route ('ceklogin')}}" method="post">
+                        @csrf
                             <div class="form-group">
                                 <label for="email" class="sr-only fa">Username</label>
-                                <input type="text" name="username" id="username" class="form-control"
-                                    placeholder="Username">
+                                <input type="email" name="email" id="email" class="form-control"
+                                    placeholder="Email">
                             </div>
                             <div class="form-group ">
                                 <label for="password" class="sr-only">Password</label>
