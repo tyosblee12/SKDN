@@ -119,4 +119,7 @@
             <i class="fas fa-th-large"></i>
         </a>
     </li>
+    <a class="nav-link" href="{{ route ('login') }}">
+        <i class="fa fa-sign-out-alt"></i>
+    </a>
 </ul>
