@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sistem Keuangan - STMIK Dharma Negara</title>
 
-    <link href="style/css/bootstrap.css" rel="stylesheet">
+    <link href="{{asset ('style/css/bootstrap.css')}}" rel="stylesheet">
     <!-- <link href="style/style.css" rel="stylesheet"> -->
     <!-- NEW CSS -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet"> -->
@@ -21,21 +21,20 @@
     <main>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-8 px-0 d-none d-sm-block">
-                    <img src="{{asset ('style/img/A1-03.jpg')}}" alt="login image" class="login-img">
+                <div class="col-lg-8 col-md-8 px-0 d-none d-sm-block">
+                    <img src="{{asset ('style/img/A1-04.jpg')}}" alt="login image" class="login-img">
                 </div>
-                <div class="col-sm-4 login-section-wrapper border-left">
+                <div class="col-lg-4 col-md-4 login-section-wrapper text-center">
                     <div class="brand-wrapper">
-                        <img src="{{asset ('style/img/Logonew.png')}}" alt="logo" class="logo">
+                        <img src="{{asset ('style/img/DNBS1.png')}}" alt="logo" class="logo">
                     </div>
                     <div class="login-wrapper my-auto ">
                         <h1 class="login-title">Silahkan Masuk</h1>
                         <form action="{{route ('ceklogin')}}" method="post">
-                        @csrf
+                            @csrf
                             <div class="form-group">
                                 <label for="email" class="sr-only fa">Username</label>
-                                <input type="email" name="email" id="email" class="form-control"
-                                    placeholder="Email">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Email">
                             </div>
                             <div class="form-group ">
                                 <label for="password" class="sr-only">Password</label>

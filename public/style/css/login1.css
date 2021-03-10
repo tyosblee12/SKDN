@@ -4,13 +4,17 @@ body {
   min-height: 100vh;
 }
 
+.inipadding {
+  padding: 100px;
+}
+
 .brand-wrapper {
   padding-top: 5px;
   padding-bottom: 1px;
 }
 
 .brand-wrapper .logo {
-  height: 100px;
+  height: 200px;
 }
 
 .login-section-wrapper {
@@ -19,7 +23,7 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   flex-direction: column;
-  padding: 60px 60px;
+  padding: 100px 100px;
   background-color: #fff;
 }
 
@@ -32,8 +36,8 @@ body {
 
 @media (max-width: 575px) {
   .login-section-wrapper {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     min-height: 100vh;
   }
 }
@@ -69,22 +73,27 @@ body {
 
 .login-wrapper .form-control::-webkit-input-placeholder {
   color: #b0adad;
+  text-align: center;
 }
 
 .login-wrapper .form-control::-moz-placeholder {
   color: #b0adad;
+  text-align: center;
 }
 
 .login-wrapper .form-control:-ms-input-placeholder {
   color: #b0adad;
+  text-align: center;
 }
 
 .login-wrapper .form-control::-ms-input-placeholder {
   color: #b0adad;
+  text-align: center;
 }
 
 .login-wrapper .form-control::placeholder {
   color: #b0adad;
+  text-align: center;
 }
 
 .login-wrapper .login-btn {
@@ -126,9 +135,10 @@ body {
 }
 
 .login-title {
-  font-size: 30px;
-  color: #000;
+  font-size: 20px;
+  font-family: "Poppins";
   font-weight: bold;
+  color: #000;
   margin-bottom: 25px;
 }
 
