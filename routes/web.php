@@ -23,5 +23,10 @@ Route::get('/', 'AuthController@index')->name('login');
 Route::post('/signin', 'AuthController@sendLoginRequest')->name('ceklogin');
 Route::get('/dashboard', 'DashboardController@index' )->name('dashboard');
 
+// MAHASISWA
+Route::get('/mahasiswa', 'MahasiswaController@index')->name('mahasiswa');
+Route::get('/mahasiswa/tambah', 'MahasiswaController@tambahmhs')->name('tambahmhs');
+Route::post('/mahasiswa/post','MahasiswaController@postmhs')->name('postmhs');
+
 // EX
 Route::get('/home', 'HomeController@index')->name('home');
