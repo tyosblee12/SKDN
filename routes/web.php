@@ -28,5 +28,9 @@ Route::get('/mahasiswa', 'MahasiswaController@index')->name('mahasiswa');
 Route::get('/mahasiswa/tambah', 'MahasiswaController@tambahmhs')->name('tambahmhs');
 Route::post('/mahasiswa/post','MahasiswaController@postmhs')->name('postmhs');
 
+// KELAS
+Route::get('/kelas','KelasController@index')->name('kelas');
+Route::post('/kelas/postkelas','KelasController@postkelas')->name('postkelas');
+
 // EX
 Route::get('/home', 'HomeController@index')->name('home');

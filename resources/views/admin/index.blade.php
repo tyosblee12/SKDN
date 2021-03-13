@@ -67,7 +67,7 @@
             <!-- small box -->
             <div class="small-box bg-warning">
                 <div class="inner">
-                    <h3>65</h3>
+                    <h3>{{$mhs}}</h3>
 
                     <p>Total Mahasiswa</p>
                 </div>
