@@ -16,7 +16,6 @@ class KelasController extends Controller
 
     public function postkelas(Request $request, KelasModel $kelasmodel){
 
-
         $simpan = $kelasmodel->create([
             'id_kelas' => $request->id_kelas,
             'nm_kelas' => $request->nm_kelas,
@@ -29,4 +28,6 @@ class KelasController extends Controller
         return redirect()->route('kelas')->with('success', 'Data Berhasil Disimpan');
 
     }
+
+
 }
