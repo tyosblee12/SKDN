@@ -14,8 +14,8 @@ class KelasSeeder extends Seeder
         DB::table('kelas')->insert(array(
             array(
                 'id_kelas'   => 'K001',
-                'nm_kelas'      => 'Reguler',
-                'status' => 1,
+                'nm_kelas'   => 'Reguler',
+                'status'     => 1,
             ),
         ));
     }
