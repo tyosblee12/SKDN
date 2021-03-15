@@ -13,7 +13,7 @@
 <div class="container-fluid">
 
     <div class="card card-default">
-        <div class="card-header bg-green">
+        <div class="card-header bg-cyan">
             <h3 class="card-title">Tambah Data Kelas</h3>
 
             <div class="card-tools">
@@ -78,13 +78,13 @@
         <!-- right col -->
         <section class="col-lg-12 col-md-12 col-sm-12 tabel-font">
             <div class="card">
-                <div class="card-header bg-success">
+                <div class="card-header bg-cyan">
                     <h3 class="card-title p-1">Tabel Kelas</h3>
                 </div>
                 <!-- /.card-header -->
-                <div class="card-body">
-                    <table class="table table-bordered table-striped table-font">
-                        <thead>
+                <div class="card-body p-0">
+                    <table class="table table-bordered table-hover table-font">
+                        <thead class="thead-dark">
                             <tr>
                                 <th></th>
                                 <th>ID Kelas</th>

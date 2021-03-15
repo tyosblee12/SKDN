@@ -24,8 +24,8 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
-                    <table id="example1" class="table table-bordered table-striped table-font">
-                        <thead>
+                    <table id="example1" class="table table-bordered table-hover table-font">
+                        <thead class=" thead-dark">
                             <tr>
                                 <th></th>
                                 <th>NIM</th>
@@ -38,10 +38,11 @@
                                 <th>Angkatan</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody style='font-size:6pt'>
                             @foreach($data as $mhs)
                             <tr>
-                                <td class="text-center"><a class="btn btn-sm fa fa-edit"></a></td>
+                                <td class="text-center"><a href="{{route('editmhs', $mhs->nim)}}"
+                                        class="btn btn-sm fa fa-edit"></a></td>
                                 <td>{{$mhs->nim}}</td>
                                 <td>{{$mhs->nm_mhs}}</td>
                                 <td>{{$mhs->alamat}}</td>

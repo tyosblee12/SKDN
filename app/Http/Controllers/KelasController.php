@@ -14,6 +14,7 @@ class KelasController extends Controller
         return view('mahasiswa.kelas', compact('data','idk'));
     }
 
+    // SIMPAN DATA KELAS
     public function postkelas(Request $request, KelasModel $kelasmodel){
 
         $simpan = $kelasmodel->create([
@@ -29,5 +30,12 @@ class KelasController extends Controller
 
     }
 
+    // AMBIL DATA KELAS YANG MAU DI EDIT
+    public function editKls($id_kelas)
+    {
+        $kelas = KelasModel::where('id_kelas', $id_kelas)->first();
+        toastr()->warning($id_kelas , 'Terpilih');
+        return view('kelas.update', compact('kelas'));
+    }
 
 }
