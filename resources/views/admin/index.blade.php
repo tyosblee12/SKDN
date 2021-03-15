@@ -77,7 +77,7 @@ $(function() {
             <!-- small box -->
             <div class="small-box bg-primary">
                 <div class="inner">
-                    <h3 style='font-size:18pt'>Rp 157.586.524,-</h3>
+                    <h3 style='font-size:15pt'>Rp 157.586.524,-</h3>
 
                     <p>Pemasukan</p>
                 </div>
@@ -92,12 +92,12 @@ $(function() {
             <!-- small box -->
             <div class="small-box bg-danger">
                 <div class="inner">
-                    <h3 style='font-size:18pt'>Rp 18.452.893,-</h3>
+                    <h3 style='font-size:15pt'>Rp 18.452.893,-</h3>
 
                     <p>Pengeluaran</p>
                 </div>
                 <div class="icon">
-                    <i class="ion ion-ios-minus-outline"></i>
+                    <i class="fas fa-share"></i>
                 </div>
                 <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -107,7 +107,7 @@ $(function() {
             <!-- small box -->
             <div class="small-box bg-info">
                 <div class="inner">
-                    <h3 style='font-size:18pt'>Rp 4.957.586.251,-</h3>
+                    <h3 style='font-size:15pt'>Rp 4.957.586.251,-</h3>
 
                     <p>Saldo</p>
                 </div>
@@ -122,7 +122,7 @@ $(function() {
             <!-- small box -->
             <div class="small-box bg-warning">
                 <div class="inner">
-                    <h3 style='font-size:18pt'>{{$mhs}}</h3>
+                    <h3 style='font-size:15pt'>{{$mhs}}</h3>
 
                     <p>Total Mahasiswa</p>
                 </div>

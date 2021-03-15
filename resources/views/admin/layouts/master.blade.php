@@ -23,8 +23,6 @@
     <link rel="stylesheet" href="{{asset ('dist/css/adminlte.min.css')}}">
     <!-- overlayScrollbars -->
     <link rel="stylesheet" href="{{asset ('plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
-    <!-- Daterange picker -->
-    <link rel="stylesheet" href="{{asset ('plugins/daterangepicker/daterangepicker.css')}}">
     <!-- summernote -->
     <link rel="stylesheet" href="{{asset ('plugins/summernote/summernote-bs4.min.css')}}">
     <!-- Custom CSS -->
@@ -125,6 +123,7 @@
     <script src="{{asset ('plugins/datatables-buttons/js/buttons.html5.min.js')}}"></script>
     <script src="{{asset ('plugins/datatables-buttons/js/buttons.print.min.js')}}"></script>
     <script src="{{asset ('plugins/datatables-buttons/js/buttons.colVis.min.js')}}"></script>
+
     <script>
     $(function() {
         $("#example1").DataTable({
