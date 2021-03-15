@@ -11,6 +11,7 @@
     </div><!-- /.container-fluid -->
 </div>
 <div class="container-fluid">
+    @toastr_css
     <!-- Main row -->
     <div class="row">
         <!-- right col -->
@@ -75,4 +76,7 @@
     </div>
     <!-- /.row (main row) -->
 </div>
+@jquery
+@toastr_js
+@toastr_render
 @endsection

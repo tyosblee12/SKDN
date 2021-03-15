@@ -36,9 +36,11 @@ class MahasiswaController extends Controller
         ]);
 
         if (!$simpan->exists) {
+            toastr()->error('Tambah Data Mahasiswa Gagal');
             return redirect()->route('mahasiswa')->with('error', 'Data Gagal Disimpan');
         }
-        return redirect()->route('mahasiswa')->with('success', 'Data Berhasil Disimpan');
+            toastr()->success('Tambah Data Mahasiswa Berhasil');
+            return redirect()->route('mahasiswa')->with('success', 'Data Berhasil Disimpan');
 
     }
 }
